@@ -28,7 +28,7 @@ if [[ $(git status --porcelain) ]]; then
 	git commit -m "Automatic site rebuild of $(date)
 
   This is a rebuild of commit '$blog_head'
-  Respository: github.com/benmezger/blog"
+  Respository: github.com/guiparpinelli/blog"
 else
 	printf "No changes detected.\n"
 fi
