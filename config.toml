@@ -39,6 +39,11 @@ icon = "fas fa-envelope"
 title = "Email"
 url = "mailto:guilheerme.p@gmail.com"
 
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
 # For hugo >= 0.60.0, enable inline HTML
 [markup.goldmark.renderer]
 unsafe = true
